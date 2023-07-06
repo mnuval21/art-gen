@@ -1,0 +1,82 @@
+html {
+  background-color: #181818;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+  color: gray;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.input {
+  width: 100%;
+  max-width: 650px;
+  position: relative;
+}
+
+#submit {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  height: 52%;
+  width: 100px;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-sizing: border-box;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
